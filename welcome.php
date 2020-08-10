@@ -19,4 +19,5 @@ body{
 <center><h1 style="backgroung:blue; width:100%;overflow:hidden;">Welcome to Student Attendance Management System &nbsp;</h1></center>
        <center><h2><a href="logIn.php">LogIn</a> </h2> </center>
 </body>
+
 </html>
