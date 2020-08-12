@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+  header{
+    position:fixed ;
+    background: #0a302e;
+    padding:20px ;
+    width:100% ;
+    height:30px ;
+  }
+  .left_area h3{
+      color: #1DC4E7;
+      margin: 0;
+    
+      font-size: 22px;
+      font-weight: 900px;
+  }
+    .logout_btn{
+     padding: 5px;
+     background: #19B3D3;
+     text-decoration: none;
+     float: right;
+     margin-top: -30px;
+     margin-right: 40px;
+     border-radius: 2px;
+     font-size: 15px;
+     font-weight: 600;
+     color: #fff;
+   }
+    .logout_btn:hover{
+     background: #0D9DBB;
+   }
+    .sidebar{
+      background: #116366;
+      margin-top: 70px;
+      padding-top: 30px;
+      position: fixed;
+      left: 0;
+      width: 250px;
+      height: 100%;
+    }
+    .sidebar .logo_image{
+       width: 100px;
+       height: 100px;
+       border-radius: 100px;
+       margin-bottom: 10px;
+    }
+    .sidebar h4{
+      color:#ccc ;
+      margin-top: 0;
+      margin-bottom: 20px; 
+    }
+    .sidebar a{
+      color: #fff;
+      display: block;
+      width: 100%;
+      line-height: 0px;
+      text-decoration: none;
+      padding: 40px;
+      box-sizing: border-box;
+      transition: 0.5s;
+      transition-property: background;
+    }
+   .sidebar a:hover{
+      background: #0a302e;
+   }
+    .sidebar i{
+      padding-right: 10px;
+    }
+    label #sidebar_btn{
+      z-index: 1;
+      color: #fff;
+      position: fixed;
+      cursor: pointer;
+      left: 300px;
+      font-size: 20px;
+      margin: 5px 0;
+      transition: 0.5s;
+      transition-property: color;
+    }
+    label #sidebar_btn:hover{
+      color: #19B3D3;
+    }
+
+    .content2{
+      margin-left:300px ;
+      margin-top:70px;
+      background: url(img.jfif);
+      background-position: center;
+      background-size: cover;
+      position: fixed;
+      left:30;
+      width: 400px;
+      height: 80%;
+      
+    }
+
+    .content{
+      margin-left:300px ;
+      margin-top:70px;    
+     
+      position: fixed;
+      left:30;
+      width: fit-content;
+      height: 80%;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      left: calc(50% - 50px);
+    }
+    
+    .login-box {
+      width: 300px;
+      height: fit-content;
+      background: #0a302e;
+      color: white;
+      top: 50%;
+      left: 70%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+    }
+    .login-box2 {
+      width: 300px;
+      height: 600px;
+      background: #0a302e;
+      color: white;
+      top:60%;
+      left: 70%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+    }
+     
+    .login-box p {
+      display: inline;
+      margin: 0;
+      font-weight: bold;
+    }
+    .login-box2 p {
+      display: inline;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+
+    .login-box2 input {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    
+    .login-box select {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+
+    .login-box2 select {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+
+    .login-box input[type="text"],
+    input[type="password"] {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #0a302e;
+      font-size: 16px;
+    }
+
+    .login-box2 input[type="text"],
+    input[type="password"] {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      font-size: 16px;
+    }
+    
+    .login-box input[type="SUBMIT"] {
+      outline: none;
+      border: none;
+      height: 40px;
+      background:#1DC4E7;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+    }
+
+    .login-box2 input[type="SUBMIT"] {
+      outline: none;
+      border: none;
+      height: 40px;
+      background:#1DC4E7;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+    }
+
+    
+    
+
+    .btn_group a{
+      padding: 5px;
+      background: #19B3D3;
+      text-decoration: none;
+      float: center;
+      margin-top: 30px;     
+      margin-right: 100px;
+      border-radius: 0;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .juju {
+      padding: 5px;
+      background: #19B3D3;
+      text-decoration: none;
+      float: center;
+      margin-left: 100px;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .jojo {
+      padding: 5px;
+      background: #19B3D3;
+      text-decoration: none;
+      float: left;
+      margin-left: 100px;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+     .btn_group a:hover{
+      background: #0D9DBB;
+    }
+    
+   .lolo h4{
+      display: inline;
+      margin: 0;
+    
+   }
+   .lolo input {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+
+  .lolo input[type="text"],
+    input[type="time"] ,input[type="date"] {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #0a302e;
+      font-size: 16px;
+    }
+
+    .login-box a{
+      color:#1DC4E7;
+    }
+   
+      .attendance_content {
+        top: 20%;
+        left: 30%;
+        position: absolute;
+      }
+      
+    
+      table{
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-size: 1.1rem;    
+     }
+
+     td, th {
+      border: 1px solid #1DC4E7;
+        text-align: center;
+        padding: 8px;
+     }
+
+
+     tr :nth-child(even){
+       background-color: #f2f2f2;
+     }
